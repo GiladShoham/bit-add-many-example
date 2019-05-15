@@ -34,10 +34,9 @@ const handlePortal = (portalTree, namespacePrefix) => {
 // This function will hard coded set the first file to be the main file, it can be changed to support more logic
 const handleComp = (compTree, namespace) => {
   const compToAdd = {
-    id: compTree.name,
+    id: `${namespace}/${compTree.name}`,
     main: compTree.children[0].path,
     componentPaths: [compTree.path],
-    namespace
   };
   return compToAdd;
 }
