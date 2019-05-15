@@ -1,0 +1,24 @@
+{
+  "name": "bit-add-many-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiladShoham/bit-add-many-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiladShoham/bit-add-many-example/issues"
+  },
+  "homepage": "https://github.com/GiladShoham/bit-add-many-example#readme",
+  "dependencies": {
+    "bit-bin": "^14.1.0",
+    "directory-tree": "^2.2.3"
+  }
+}
