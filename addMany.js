@@ -36,13 +36,13 @@ const handleComp = (compTree, namespace) => {
   const compToAdd = {
     id: compTree.name,
     main: compTree.children[0].path,
+    componentPaths: [compTree.path],
     namespace
   };
   return compToAdd;
 }
 
 const compsToAdd = buildComps(tree);
-console.log(JSON.stringify(compsToAdd, null, 2))
 
-// bit.addMany
+bit.addMany(compsToAdd)
 
