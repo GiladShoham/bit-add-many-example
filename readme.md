@@ -49,3 +49,12 @@ new components
      > module2/m2-portal2/m2-p2-comp1 ... ok
      > module2/m2-portal2/m2-p2-comp2 ... ok
 ```
+
+## Run the project
+```sh
+git clone
+cd [cloned dir]
+bit init
+node addMany.js
+bit status
+``` 
